@@ -1,0 +1,20 @@
+.outainerDiv{
+    display: flex;
+    justify-content: center;
+
+}
+.rightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+}
+.leftDiv{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 20px;
+}

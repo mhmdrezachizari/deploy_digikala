@@ -3,7 +3,7 @@ import ReactImageGallery from 'react-image-gallery';
 
 const MainSlider = (props) => {
   return (
-    <div>
+    <div className="my-3">
      <ReactImageGallery 
      items={props.mainSlider}
      autoPlay={true}

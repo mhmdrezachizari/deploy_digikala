@@ -10,7 +10,7 @@ const TopBanner = () => {
   }, []);
   return (
 <Link href='/'>
-    <div style={{ height: "12px" }}>
+    <div style={{ height: "46px" }}>
       <Image
         className={`${styles.image}`}
         fill
